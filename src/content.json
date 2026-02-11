@@ -3,10 +3,10 @@
     "first_name": "Zimra",
     "last_name": "Mohamed",
     "navbar_social_links": {
-      "github": "https://github.com/KevinTrinh1227",
+      "github": "https://github.com/ZimraMohamed",
       "resume": "/resume",
-      "linkedin": "https://www.linkedin.com/in/kevintrinh1227",
-      "email": "kevintrinh1227@gmail.com"
+      "linkedin": "https://www.linkedin.com/in/zimra-mohamed-28105b342/",
+      "email": "zimramohamed64@gmail.com"
     }
   },
   "repo_stats": {
@@ -23,10 +23,10 @@
     "main_header": "Hello, Zimra here.",
     "main_subtitle": "Software Engineering Undergraduate",
     "intro_bio": [
-      "I'm currently a Freshman at the University of Houston,",
-      "pursuing a Bachelor of Science in Computer Science.",
-      "I have a profound interest in machine learning, operating",
-      "systems, full-stack development, and everything in between."
+      "I'm currently an undergraduate student pursuing a BSc (Hons) in Computing at NIBM",
+      "I specialize in full-stack development using the MERN stack, NestJS, and PostgreSQL.",
+      "I have a strong interest in building secure, scalable web applications and expanding my",
+      "knowledge in modern software engineering practices."
     ],
     "email_button": "Say hello to me!"
   },
@@ -39,17 +39,17 @@
     },
     "headShotUrl": "../assets/zimra.png",
     "bio": [
-      "I am currently an undergraduate student at the University of Houston pursuing a Bachelor of Science in Computer Science. I recently completed an internship at the McNair Research Program at STMU, where I conducted research on high-level to low-level language translation under the guidance of my mentor, Arthur Hanna, Ph.D. Some of my curent goals include gaining practical experience and cultivating valuable connections that will contribute to my personal and professional growth.",
-      "I have a profound interest in various types of software development, including machine learning, operating systems, and full-stack development. I'm a huge enthusiast of desk setups and PCs. In my free time, I enjoy playing and analyzing chess games, thrifting, playing video games, strumming my guitar, and trying local foods."
+      "I recently completed my internship as a Trainee Full Stack Developer at Sri Lanka Telecom (SLT), where I contributed to building and enhancing enterprise-level applications. During this experience, I worked with React, NestJS, PostgreSQL, and MongoDB to develop secure, role-based systems using JWT authentication and Redux for efficient state management. I followed version control best practices using Git and contributed to delivering reliable, production-ready features.",
+      "I am passionate about full-stack development and backend architecture, with a strong focus on building secure, scalable, and maintainable web applications. I enjoy solving complex problems, optimizing system performance, and continuously improving my technical skills. As a fast learner and team-oriented developer, I aim to contribute to impactful software solutions while growing both personally and professionally."
     ],
     "skills_caption": "Some technologies I've been worked with:",
     "skills": [
-      "JavaScript ES6+",
-      "React.js & Node.js",
-      "Python 3.x",
+      "MERN Stack",
+      "React",
+      "JavaScript",
       "HTML & CSS",
-      "MongoDB & MySQL",
-      "Linux & Windows OS"
+      "MongoDB & PostgreSQL",
+      "MySQL"
     ]
   },
   "academics": {
@@ -225,20 +225,20 @@
     "project_items": [
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Github-Followers-Bot",
-        "project_name": "STMU Yelp",
-        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
-        "resources_used": ["JavaScript", "Node.js", "GitHub API"],
-        "start_date": "June 2024",
-        "end_date": "July 2024",
+        "api_github_repo_link": "https://github.com/ZimraMohamed/sDesk-Frontend.git",
+        "project_name": "SDesk IMS",
+        "description": "Developed the Incident Management System, allowing users to report and track incidents, view and export incident history, and manage tasks based on their assigned roles",
+        "resources_used": ["React", "Nest.js", "PostgreSQL"],
+        "start_date": "Mar 2025",
+        "end_date": " Sep 2025",
         "links": [
           {
-            "href": "https://github.com/KevinTrinh1227/Github-Followers-Bot",
+            "href": "https://github.com/ZimraMohamed/sDesk-Frontend.git",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           },
           {
-            "href": "https://github.com/KevinTrinh1227/Github-Followers-Bot/archive/main.zip",
+            "href": "https://github.com/ZimraMohamed/sDesk-Frontend/archive/main.zip",
             "icon": "FaDownload",
             "data_tooltip": "Download Project"
           }
@@ -246,25 +246,21 @@
       },
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Client",
-        "project_name": "Hycord Client",
-        "description": "Discord.py client that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Simply, a versatile Hypixel Discord bot.",
-        "resources_used": ["HTML", "Discord.py", "Hypixel API"],
-        "start_date": "Dec 2022",
-        "end_date": "Present",
+        "api_github_repo_link": "https://github.com/ZimraMohamed/TheTeaLeaf.git",
+        "project_name": "Tea Factory System",
+        "description": "This specialized software streamlines tea factory operations, managing everything from raw leaf collection to processing, packaging, and distribution.",
+        "resources_used": ["React","JavaScript", "HTML & CSS","Firebase"],
+        "start_date": "Oct 2023",
+        "end_date": "Dec 2023",
         "links": [
+      
           {
-            "href": "https://www.hycord.net",
-            "icon": "FiExternalLink",
-            "data_tooltip": "Information Page"
-          },
-          {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Client",
+            "href": "https://github.com/ZimraMohamed/TheTeaLeaf.git",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           },
           {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Client/archive/main.zip",
+            "href": "https://github.com/ZimraMohamed/TheTeaLeaf/archive/main.zip",
             "icon": "FaDownload",
             "data_tooltip": "Download Project"
           }
@@ -272,24 +268,43 @@
       },
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Reactfolio",
-        "project_name": "Reactfolio V2",
-        "description": "An e-portfolio built with React.js that utilizes GitHub API. Designed for public use and easy configuration. The second iteration of my website.",
-        "resources_used": [
-          "React.js",
-          "NVM",
-          "HTML & CSS",
-          "JavaScript",
-          "HTML",
-          "CSS"
-        ],
-        "start_date": "Sept 2023",
-        "end_date": "Present",
+        "api_github_repo_link": "https://github.com/ZimraMohamed/SnapCal_OCR-based-Equation-Solver.git",
+        "project_name": "SnapSolve",
+        "description": "Developed a web application that enables users to upload images of mathematical equations and instantly receive clear, step-by-step solutions.",
+        "resources_used": ["Python"],
+        "start_date": "Sep 2024",
+        "end_date": "Sep 2024",
         "links": [
           {
-            "href": "https://github.com/KevinTrinh1227/Reactfolio",
+            "href": "https://github.com/ZimraMohamed/SnapCal_OCR-based-Equation-Solver",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://github.com/ZimraMohamed/SnapCal_OCR-based-Equation-Solver/archive/main.zip",
+            "icon": "FaDownload",
+            "data_tooltip": "Download Project"
+          }
+        ]
+      },
+      {
+        "use_git_api": true,
+        "api_github_repo_link": "https://github.com/ZimraMohamed/UrbanFood.git",
+        "project_name": "Urban Food",
+        "description": "Implemented a food-ordering web application, featuring user authentication, shopping cart management, and secure checkout, tailored for the food and beverage industry.",
+        "resources_used": ["PHP", "MongoDB"],
+        "start_date": "Jun 2024",
+        "end_date": "Jun 2024",
+        "links": [
+          {
+            "href": "https://github.com/ZimraMohamed/UrbanFood",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://github.com/ZimraMohamed/UrbanFood/archive/main.zip",
+            "icon": "FaDownload",
+            "data_tooltip": "Download Project"
           }
         ]
       }
