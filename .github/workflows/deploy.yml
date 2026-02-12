@@ -22,6 +22,17 @@ jobs:
           npm install
           npm run build
 
+      - name: Pre-deployment cleanup
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            # Remove old files and ensure the folder is owned by ubuntu for the upload
+            sudo rm -rf /var/www/portfolio/*
+            sudo chown -R ubuntu:ubuntu /var/www/portfolio
+
       - name: Deploy to EC2 via SCP
         uses: appleboy/scp-action@master
         with:
@@ -39,6 +50,10 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
+            # Give Nginx (www-data) permission to read the files
             sudo chown -R www-data:www-data /var/www/portfolio
             sudo chmod -R 755 /var/www/portfolio
+            # Allow the ubuntu user to modify this folder for next time
+            sudo usermod -a -G www-data ubuntu
+            sudo chmod -R g+w /var/www/portfolio
             sudo systemctl restart nginx
